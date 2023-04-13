@@ -16,6 +16,7 @@
 
 package com.netflix.spinnaker.front50.model
 
+
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.netflix.spectator.api.Registry
 import com.netflix.spinnaker.front50.api.model.Timestamped
@@ -463,3 +464,4 @@ class SqlStorageService(
     }
   }
 }
+
