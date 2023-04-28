@@ -22,3 +22,9 @@ test {
     includeEngines "junit-jupiter"
   }
 }
+compileTestKotlin {
+  kotlinOptions {
+    languageVersion = "1.7"
+    jvmTarget = "17"
+  }
+}
